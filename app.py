@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Conexão com o MongoDB Atlas
-uri = 'mongodb+srv://rafaelorsi_db_user:qYDfJl3Lq4olXkB3@cluster0.omk9lt7.mongodb.net/?appName=Cluster0'
+uri = "mongodb+srv://rafaelorsi_db_user:XtXNcEROaB0BXUrK@cluster0.strkbie.mongodb.net/?appName=Cluster0"
 client = MongoClient(uri)
 db = client['midias']
 fs = gridfs.GridFS(db)
